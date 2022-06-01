@@ -3,7 +3,7 @@ const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 const _ = require("lodash")
 
-mongoose.connect("mongodb+srv://vm270400:qwe123@cluster0.aljel.mongodb.net/todoDB?retryWrites=true&w=majority",{ useNewUrlParser: true})
+mongoose.connect("mongodb+srv://vm270400:password@cluster0.aljel.mongodb.net/todoDB?retryWrites=true&w=majority",{ useNewUrlParser: true})
 
 const app = express()
 app.use(bodyParser.urlencoded({extended:true}))
